@@ -4,7 +4,7 @@ import { StackNavigator } from 'react-navigation';
 
 export default class Layout extends React.Component {
   static navigationOptions= ({ navigation }) =>({
-   title: 'OnlineShop',
+   title: 'Dashboard',
    headerRight:
    <TouchableOpacity
    onPress={() => navigation.navigate('Put')}
@@ -22,12 +22,7 @@ export default class Layout extends React.Component {
         </View>
         <View style={styles.Box3}>
           <View style={styles.Box3a}>
-            <View style={styles.Box3b}>
-              <TouchableOpacity
-                onPress={() => navigate('Lb')}
-                style={styles.btn1}>
-                <Image style={styles.img2} source={require('../img/baju.png')}/>
-              </TouchableOpacity>
+            <View style={styles.Box3b}>                     
             </View>
             <View style={styles.Box3b}>
               <TouchableOpacity
@@ -108,14 +103,14 @@ const styles = StyleSheet.create({
   },
   Box3a: {
     flex: 1,
-    backgroundColor: '#90A4AE',
+    backgroundColor: '#E0E0E0',
     flexDirection: 'row',
     marginRight: 20,
     marginLeft: 20,
   },
   Box3b: {
     flex: 1,
-    backgroundColor: '#E0E0E0',
+    backgroundColor: '#424242',
     marginTop: 10,
     marginBottom: 10,
     marginRight: 10,
@@ -141,12 +136,12 @@ const styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
     color: 'white'
-  },
+  },  
   btn1: {
 		width: '100%',
     height: '100%',
     padding: 10,
-    backgroundColor: '#E0E0E0',
+    backgroundColor: '#424242',
     alignItems: 'center'
 	},
   btn2: {
@@ -164,13 +159,13 @@ const styles = StyleSheet.create({
     color: '#ffffff'
 	},
   img: {
-    height: '100%',
-    width: '100%',
+    height: 230,
+    width: 440,
     alignItems: 'center'
   },
   img2: {
-    height: '80%',
-    width: '50%',
+    height: 105,
+    width: 105,
     alignItems: 'center'
   },
   img3: {
