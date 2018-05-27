@@ -37,7 +37,7 @@ export default class App extends Component {
           latitude:-8.6212118,
           longitude: 115.0846145
         },
-        title: 'Pura Tanah Lot'
+        title: 'Pura Tanah Lot',
         subtitle: 'Pura yang terletak di kabupaten Tabanan'
       }
       ,
