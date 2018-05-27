@@ -16,37 +16,38 @@ export default class App extends Component {
       {
         key:1,
         latlng: {
-          latitude:-8.1550617,
-          longitude: 115.0644899
+          latitude:-8.2547345,
+          longitude: 115.3336733
         },
-        title: 'Museum Buleleng',
-        subtitle: 'berlokasi di Jl Veteran no 23 singaraja Bali'
+        title: 'Pura Ulundanu Batur',
+        subtitle: 'Pura yang berada di desa Batur Kintamani'
       },
       {
         key:2,
         latlng: {
-          latitude:-8.4629415,
-          longitude: 115.1976722
+          latitude:-8.374387,
+          longitude: 115.4487587
         },
-        title: 'Museum Bali',
-        subtitle: 'museum penyimpanan peningggalan masa lampau manusia dan etnografi'
+        title: 'Pura Besakih',
+        subtitle: 'Pura terbesar dibali'
       },
       {
         key:3,
         latlng: {
-          latitude:-8.5240722,
-          longitude: 115.2619445
+          latitude:-8.6212118,
+          longitude: 115.0846145
         },
-        title: 'Museum Puri Lukisan'
+        title: 'Pura Tanah Lot'
+        subtitle: 'Pura yang terletak di kabupaten Tabanan'
       }
       ,
       {
         key:4,
         latlng: {
-          latitude:-8.6206825,
-          longitude: 115.1735166
+          latitude:-8.5111604,
+          longitude: 114.814318
         },
-        title: 'Museum Le Mayeur'
+        title: 'Pura Rambut siwi'
       }
    ]
   };
@@ -56,7 +57,7 @@ export default class App extends Component {
       <View style={styles.contMain}>
         <View style={styles.contHeader}>
             <Text style={styles.textHeader}>
-              Peta Museum di Bali
+              Peta Pura di Bali
             </Text>
         </View>
         <View style={styles.contMaps}>
@@ -75,7 +76,7 @@ export default class App extends Component {
               </MapView>
         </View>
         <View style={styles.contFooter}>
-           <Text style={styles.textFooter}> http://www.rey1024.com </Text>
+           <Text style={styles.textFooter}> Undiksha 2018 </Text>
         </View>
       </View>
     );
@@ -90,7 +91,7 @@ const styles = StyleSheet.create({
       flex : 1
   },
   contHeader: {
-    backgroundColor: 'green',
+    backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center',
     flex: 1,
@@ -106,7 +107,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   contFooter: {
-    backgroundColor: 'green',
+    backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center',
     flex: 1,
